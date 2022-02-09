@@ -1,0 +1,15 @@
+1. select p."name" as name , t.total as total_price
+   from persons p
+   join transactions t ON p.id = t.person_id 
+
+2. select *
+	from transactions t 
+	inner join persons p ON p.id = t.person_id 
+	inner join items i on i.id  = t.item_id 
+	WHERE date BETWEEN '2020-01-01' AND '2020-06-25'
+
+3. select  p.name , count(t.item_id) as total_item
+	from transactions t 
+	inner join persons p ON p.id = t.person_id 
+	group by p."name" 
+	order by count(t.item_id) desc
