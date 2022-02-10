@@ -1,0 +1,9 @@
+Parallel Programming?
+
+In very simple terms, it is the use of multiple resources, in this case, processors, to solve a problem. 
+This type of programming takes a problem, breaks it down into a series of smaller steps, delivers instructions, and processors execute the solutions at the same time.
+It is also a form of programming that offers the same results as concurrent programming but in less time and with more efficiency
+
+Concurrent programing? 
+Simply described, it’s when you are doing more than one thing at the same time.
+ Not to be confused with parallelism, concurrency is when multiple sequences of operations are run in overlapping periods of time. 
